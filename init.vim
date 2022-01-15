@@ -19,7 +19,8 @@ source ~/.config/nvim/plugins.vim
 
 " SETTINGS
 source ~/.config/nvim/settings.vim
-source ~/.config/nvim/keys.vim 
+source ~/.config/nvim/keys.vim "
+
 
 
 "IMPORT PLUG-SETTINGS

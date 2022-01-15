@@ -30,7 +30,7 @@ set cursorline "muestra una linea donde se encuentra el cursor
 set autoindent "Incantación con los símbolos de < y > que en modo normal
 set wrap "Colapsar al no tener espacio en pantalla
 " set textwidth=90 "Limita el texto al ancho especificado y fuerza un salto de linea
-set colorcolumn=+1 "Mostrar la linea con color
+" set colorcolumn=+1 "Mostrar la linea con color
 set foldmethod=manual "Plegar contenido
 set incsearch "Resalta la búsqueda mientras escribes
 set hlsearch "Deja resaltada la coincidencia de la búsqueda lo quitas con nohls

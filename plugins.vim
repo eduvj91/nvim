@@ -15,18 +15,18 @@ Plug 'easymotion/vim-easymotion' "Buscador inteligente
 Plug 'benmills/vimux'
 Plug 'christoomey/vim-tmux-navigator' "Navegación entre los splits vim
 Plug 'preservim/nerdtree' "Árbol de navegación lateral
-Plug 'terryma/vim-multiple-cursors' "Multiples cursores como vs code
+" Plug 'terryma/vim-multiple-cursors' "Multiples cursores como vs code
 Plug 'scrooloose/nerdcommenter' "Comentarios rápidos
 Plug 'junegunn/goyo.vim' "Pata abrir pantalla sin distracciones :Goyo o :Goyo!
 Plug 'vimwiki/vimwiki' "Visualización Markdown
 Plug 'yggdroot/indentline' "Visualiza una linea en incantación
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lilydjwg/colorizer'
 Plug 'dnitro/vim-pug-complete'
 Plug 'mattn/emmet-vim'
-Plug 'mattesgroeger/vim-bookmarks'
+" Plug 'mattesgroeger/vim-bookmarks'
 
 " Git
 Plug 'tpope/vim-fugitive' " Utiliza Git desde Vim
