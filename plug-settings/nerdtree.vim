@@ -1,5 +1,5 @@
 " Cerrar tras abrir algún archivo
-let NERDTreeQuitOnOpen=0
+let NERDTreeQuitOnOpen=1
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
@@ -8,3 +8,10 @@ let g:NERDTreePatternMatchHighlightFullName = 1
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
     \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
+let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
+let NERDTreeAutoDeleteBuffer=1
+let NERDTreeMinimalUI=1
+let NERDTreeDirArrows=1
+let NERDTreeShowLineNumbers=1
+let NERDTreeMapOpenInTab='\t'

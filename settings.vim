@@ -41,7 +41,7 @@ set autoread "lee y hace los cambios automáticos sin recargar"
 
 "Spell
 set spell
-setlocal spell spelllang=es,en_us
+setlocal spell spelllang=es_mx,en_us
 set spellfile=~/.local/share/nvim/site/spell/dict.add
 
 " Themes
@@ -58,15 +58,15 @@ let g:gruvbox_contrast_dark = "hard"
 " For wsl
 " set clipboard+=unnamedplus
 "
-" let g:clipboard = {
-"       \   'name': 'win32yank-wsl',
-"       \   'copy': {
-"       \      '+': 'win32yank.exe -i --crlf',
-"       \      '*': 'win32yank.exe -i --crlf',
-"       \    },
-"       \   'paste': {
-"       \      '+': 'win32yank.exe -o --lf',
-"       \      '*': 'win32yank.exe -o --lf',
-"       \   },
-"       \   'cache_enabled': 0,
-"       \ }
+let g:clipboard = {
+      \   'name': 'win32yank-wsl',
+      \   'copy': {
+      \      '+': 'win32yank.exe -i --crlf',
+      \      '*': 'win32yank.exe -i --crlf',
+      \    },
+      \   'paste': {
+      \      '+': 'win32yank.exe -o --lf',
+      \      '*': 'win32yank.exe -o --lf',
+      \   },
+      \   'cache_enabled': 0,
+      \ }

@@ -8,9 +8,9 @@
 "                                                        
 
 "Esto se usa para que en vim como nvim tengan las mismas configuraciones
-"set runtimepath^=~/.vim runtimepath+=~/.vim/after
-"let &packpath=&runtimepath
-"source ~/.vimrc
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath=&runtimepath
+source ~/.vimrc
 
 
 " Primero la lista de Plugins a Instalar
