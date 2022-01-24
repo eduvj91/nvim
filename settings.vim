@@ -47,7 +47,7 @@ set spellfile=~/.local/share/nvim/site/spell/dict.add
 " Themes
 set background=dark
 set termguicolors
-colorscheme gruvbox
+" colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 "colorscheme ayu
 "colorscheme onedark

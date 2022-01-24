@@ -56,8 +56,8 @@ noremap <leader>t :vert :term<CR>
 
 " Spell
 nnoremap <leader>z z=
-nnoremap <leader>jw ]s
-nnoremap <leader>kw [s
+nnoremap <leader>nw ]s
+nnoremap <leader>pw [s
 
 " Moves Blocks of jode in visual mode or V-Line 
 xnoremap K :move '<-2<CR>gv-gv 
