@@ -82,10 +82,10 @@ nnoremap <c-g> :GitFiles<CR>
 nnoremap <C-a> :Ag<CR>
 
 " Teclas desactivadas
-"noremap <up> <nop>
-"noremap <down> <nop>
-"noremap <left> <nop>
-"noremap <right> <nop>
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
 
 " Agregando plantillas a nuestro buffer actual
 nnoremap ,html :-1read ~/.config/nvim/skeletons/skeleton.html<CR>

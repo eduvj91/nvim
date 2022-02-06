@@ -35,6 +35,5 @@ source ~/.config/nvim/plug-settings/tmux.vim
 source ~/.config/nvim/plug-settings/vimwiki.vim
 source ~/.config/nvim/plug-settings/fzf.vim
 source ~/.config/nvim/plug-settings/bookmark.vim
-source ~/.config/nvim/plug-settings/nerdtreesyntax.vim
 source ~/.config/nvim/plug-settings/vimdevicons.vim
 source ~/.config/nvim/plug-settings/airline.vim

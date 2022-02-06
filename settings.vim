@@ -8,9 +8,7 @@
 
 
 set encoding=UTF-8 "Codificación de caracteres especiales latinos
-scriptencoding utf-8
 set nocompatible "Para evitar errores con Vim vanilla
-filetype plugin on "Ni idea
 syntax on "Mostrar resaltado de sintaxis
 set number "Mostrar números laterales
 set relativenumber "Números relativos
@@ -39,15 +37,20 @@ set smartcase
 set autoread "lee y hace los cambios automáticos sin recargar"
 
 
+
+scriptencoding utf-8
+filetype plugin on "Ni idea
+
+
 "Spell
 set spell
 setlocal spell spelllang=es_mx,en_us
-set spellfile=~/.local/share/nvim/site/spell/dict.add
+set spellfile=~/.config/nvim/spell/dict.add
 
 " Themes
 set background=dark
 set termguicolors
-" colorscheme gruvbox
+ colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 "colorscheme ayu
 "colorscheme onedark

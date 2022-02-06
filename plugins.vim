@@ -7,7 +7,6 @@ Plug 'joshdick/onedark.vim'
 Plug 'AlessandroYorba/Despacio'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'wojciechkepka/bogster'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 
 "IDE
